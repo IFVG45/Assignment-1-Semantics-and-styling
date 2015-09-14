@@ -12,10 +12,6 @@ html{
 
 h1{
   margin: 0;
-  position: relative;
-  top: 15px;
-  right: -114px;
-  width: 100%;
   font-size: 1.5rem;
 }
 
@@ -24,7 +20,9 @@ header{
   background-image: url("../images/logo.svg");
   background-position: left, top;
   background-size: .8em auto, .8em auto;
-
+  float:left;
+  left:67px;
+  top:7px;
 }
 
 
@@ -34,15 +32,6 @@ h4{
   color:#000;
   background-color:#f79f3b;
   }
-
-.logo {
-  width:15%;
-  position:absolute;
-  left:67px;
-  top:7px;
-  border:0;
-
-}
 
 
 dl{
