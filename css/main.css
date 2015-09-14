@@ -9,18 +9,25 @@ html{
      box-sizing: inherit;
    }
 
+   body {
+     margin: 0;
+   }
 
 h1{
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+  background-size: .8em auto, .8em auto;
+  width: 95%;
+  margin: 0 auto;
+  color: #512200;
+  font-size: 3em;
+  text-align: left;
   font-size: 2.5rem;
 }
 
-
 header{
   background-image: url("../images/logo.svg");
-  background-position: left, top,left,top;
-  background-size: 1.5em auto, 1.5em auto;
-  float:left;
-  position: absolute;
+  margin:0;
 }
 
 
@@ -32,11 +39,6 @@ h4{
   }
 
 
-dl{
-  font-size:1.0rem;
-  text-align:left;
-  color:#000;
-
 
 }
 
@@ -45,36 +47,47 @@ nav {
   margin: 0;
   width: 100%;
 }
-nav li{
-  text-align:center;
-  padding: 0.5em;
-  width:100%;
-  background-color:#f6ea45;
-  font-size:1em;
 
+nav li {
+  float: left;
+  padding: .5em;
+  background-color: rgba(81,34,0,0.5);
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0;
+  display: inline;
+  width: 25%;
+}
+nav ul {
+  overflow: hidden;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
+nav a {
+  text-decoration: none;
+  color: white;
+}
 .banner {
   background-image: url("../assets/Maerten_van_Heemskerck_-_Panorama_with_the_Abduction_of_Helen_Amidst_the_Wonders_of_the_Ancient_World_-_Walters_37656.jpg");
 }
 
 .banner h2 {
-  padding-top: 5em;
+  margin: 0;
+  padding-top: 10em;
   color: white;
-  padding-bottom: 5em;
+  padding-bottom: 1em;
+  width: 100%;
   text-align: center;
 }
 
-nav a {
-  text-decoration: none;
-  color: black;
-}
-
-nav ol{
-margin: 0;
-padding: 0;
-list-style-type: none;
-text-align: left;
+main {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
 }
    h3 {
     font-size: 0rem;
@@ -94,6 +107,19 @@ img {
 
 }
 
+figure img {
+  display: block;
+  width: 100%;
+}
+
+figure {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  width: 50%;
+  float: left;
+
+}
 
  h2{
   margin:0;
