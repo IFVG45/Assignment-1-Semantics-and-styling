@@ -27,7 +27,7 @@ header{
   }
 
   .logo{
-    width:10%;
+    width:50%;
     left:335px;
     top:5px;
     border:5;
@@ -89,7 +89,6 @@ main {
   width:100%;
   margin: 0;
   padding: 0;
-  display: block;
 }
 
    h3 {
@@ -151,4 +150,10 @@ figure {
   footer a {
     color: #fff;
 
+  }
+
+  p{
+    font-family: 'impact', serif;
+    font-size: 1.0rem;
+    color:white;
   }
