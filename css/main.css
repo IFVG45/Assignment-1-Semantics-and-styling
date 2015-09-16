@@ -82,14 +82,15 @@ main {
 figcaption {
   display: block;
   background-color: #388200;
-  border-radius: 20px;
+  border-radius: 17px;
   text-align: center;
   margin-left: 20%;
   color: white;
-  width: 70%;
-  position: absolute;
-  bottom: 1em;
-  padding: .2em;
+  width: 90%;
+ position:relative;
+  right:2em;
+  bottom: .2em;
+  padding: .5em;
   background: linear-gradient(to bottom, #6fc000, #388200);
 }
 
@@ -103,19 +104,6 @@ figcaption:hover {
   background: linear-gradient(to bottom, #388200, #214d00);
 }
 
-figure img {
-  display: block;
-  width: 100%;
-}
-
-figure {
-  position: relative;
-  box-sizing: border-box;
-  margin: 0;
-  width: 50%;
-  float: left;
-
-}
 
 
    h3 {
