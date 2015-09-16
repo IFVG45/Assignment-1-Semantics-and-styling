@@ -14,44 +14,46 @@ html{
    }
 
 h1{
-  margin: 0 auto;
   color: #512200;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
+  text-align:left;
+
 
 }
 
 header{
   background-image: url("../images/logo.svg");
-  margin:0;
-
+  float:right;
+  left:7em;
   }
 
   .logo{
-    width:50%;
+    width:30%;
     left:335px;
-    top:5px;
-    border:5;
+    bottom:8px;
   }
 
 
 
     nav {
       display: inline-block;
-      margin: 0;
       width: 100%;
-      clear:left;
+      float:right;
     }
 
   nav li {
-    float:left;
-    padding:.5em;
-    background-color: rgba(81,34,0,0.5);
-
+    clear:left;
+    padding: .5em;
+    background-color:#645148;
     text-align: center;
     margin: 0;
+    display: inline;
+    width: 50%;
   }
 
   nav ul {
+    clear:right;
+    padding: 0;
     margin: 0;
   }
 
@@ -90,13 +92,26 @@ figcaption {
   margin-left: 20%;
   color: black;
   width: 90%;
- position:relative;
+  position:relative;
   right:4em;
   bottom: .1em;
   padding: .2em;
   background: linear-gradient(to bottom, #6fc000, #388200);
 }
+.Buy{
+  display: inline-block;
+  background-color: #388200;
+  border-radius: 17px;
+  text-align: center;
+  color: black;
+  width: 25%;
+  position: relative;
+  left:11em;
+  top:2em;
+  padding: .1em;
+  background: linear-gradient(to bottom, #6fc000, #388200);
 
+}
 figcaption a {
   color: white;
   text-decoration: none;
