@@ -11,7 +11,7 @@
   header{
   	position: relative;
   	text-align: center;
-    font-size: 1em;
+    font-size: 0.9em;
     padding-top: 1em;
   }
   header img{
@@ -170,7 +170,7 @@
   	border-radius: 0.5em;
   	padding: .6em;
     left:.85em;
-    top: 7rem;
+    top: 8rem;
   	color: white;
   	position: relative;
   	text-shadow: none;
