@@ -118,12 +118,11 @@
   	display: inline;
   	background-color: #7944e4;
   	border-radius: 0.25em;
-  	padding:.8rem;
+    padding:.9rem;
   	color: white;
     position: relative;
-    bottom:15em;
+    top:1em;
     float:right;
-  	bottom: 7px;
   }
   .price{
   	width: 100%;
