@@ -104,7 +104,7 @@
   	display: inline;
   	background-color: #7944e4;
   	border-radius: 0.25em;
-  	padding: .95em;
+  	padding: .115em;
   	color: white;
     position: relative;
     bottom:14em;
@@ -178,9 +178,8 @@
   	text-decoration: none;
   }
   .days ol{
-  	width: 55%;
-  	margin: 0;
-  	padding: 0;
+  	width: 85%;
+    text-align: center;
   }
   footer li{
   	display: inherit;
