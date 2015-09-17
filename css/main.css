@@ -168,7 +168,7 @@
   	display: inline;
   	background-color: #7944e4;
   	border-radius: 0.5em;
-  	padding: .8em;
+  	padding: .6em;
     left:.85em;
     top: 7rem;
   	color: white;
@@ -204,7 +204,7 @@
   h3{
   	text-align: center;
     font-size: 1.5em;
-    color: #7944e4;
-    bottom: .19rem;
+    color: #3657e0;
+    bottom: .22rem;
     position: relative;
   }
