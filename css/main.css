@@ -22,22 +22,22 @@
 
   }
   header h1{
-  	display: inline;
+  	display: inline-block;
   }
   header nav li{
-  	display: inline;
+  	display: inline-block;
   	width: 25%;
   	float: left;
   	padding: .5em;
   }
   header nav ol{
   	margin: 0;
-  	padding: 0;
+    padding: 0;
   	overflow: hidden;
   }
   header nav{
   	background-color: #212c59;
-  	margin-top: 2em;
+    margin-top: 2em;
     font-size: 1em;
   }
   header a{
@@ -79,9 +79,7 @@
   .desc dl, .desc dd{
   	margin: 0;
   }
-  main{
-  	padding:0 5% 5% 5%;
-  }
+
   main img{
   	width: 100%;
   }
