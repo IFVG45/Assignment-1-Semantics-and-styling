@@ -57,11 +57,11 @@
     font-size: 1.4em;
   }
 
-  p{
-    color: black;
-    text-align: center;
-    font-size: 1em;
-  }
+    p{
+      color: black;
+      text-align: center;
+      font-size: 1em;
+    }
 
   .desc li{
   	display: inline-block;
@@ -162,6 +162,7 @@
   .pr{
   	text-align: center;
   }
+
   .button2{
   	display: inline;
   	background-color: #7944e4;
@@ -174,6 +175,7 @@
   	text-shadow: none;
     font size: 1em;
   }
+  
   main a{
   	text-decoration: none;
   }
