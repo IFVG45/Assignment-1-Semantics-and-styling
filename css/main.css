@@ -151,13 +151,12 @@
   	margin: 1em 0 0 0;
   }
   .top2 figcaption{
-  	position: relative;
   	bottom: 2rem;
   	color: black;
   	text-align: center;
   	margin-bottom: -7em;
   	width: 100%;
-    font-size: 8px;
+    font-size: 1em;
   }
   .pr{
   	text-align: center;
@@ -167,7 +166,7 @@
   	display: inline;
   	background-color: #7944e4;
   	border-radius: 0.5em;
-  	padding: .6em;
+  	padding: .8em;
     left:8.0em;
     top: -.24em;
   	color: white;
@@ -175,7 +174,7 @@
   	text-shadow: none;
     font size: 1em;
   }
-  
+
   main a{
   	text-decoration: none;
   }
