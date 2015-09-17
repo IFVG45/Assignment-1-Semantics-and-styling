@@ -103,7 +103,9 @@
   	border-radius: 0.25em;
   	padding: .95em;
   	color: white;
-  	position: relative;
+    position: relative;
+    bottom:14em;
+    float:right;
   	bottom: 7px;
   }
   .price{
