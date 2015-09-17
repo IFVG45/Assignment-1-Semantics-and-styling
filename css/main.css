@@ -12,6 +12,7 @@
   	position: relative;
   	text-align: center;
     font-size: .8em;
+    padding-top: 1em;
   }
   header img{
   	width: 25%;
@@ -35,7 +36,8 @@
   }
   header nav{
   	background-color: #212c59;
-  	margin-top: 1em;
+  	margin-top: 2em;
+    font-size: 1em;
   }
   header a{
   	text-decoration: none;
