@@ -1,6 +1,6 @@
   html{
   	box-sizing: border-box;
-  	font-family: 'Dosis', sans-serif;
+  	font-family: 'Raleway', sans-serif;
   }
   *, *::before, *::after{
   	box-sizing: inherit;
@@ -11,7 +11,7 @@
   header{
   	position: relative;
   	text-align: center;
-    font-size: .8em;
+    font-size: 1em;
     padding-top: 1em;
   }
   header img{
@@ -106,7 +106,7 @@
   	display: inline;
   	background-color: #7944e4;
   	border-radius: 0.25em;
-  	padding: .115em;
+  	padding:.8rem;
   	color: white;
     position: relative;
     bottom:14em;
