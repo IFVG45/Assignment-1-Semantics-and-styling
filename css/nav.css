@@ -1,0 +1,118 @@
+@-moz-viemport { width: device-width; scale: 1; }
+@-ms-viemport { width: device-width; scale: 1; }
+@-o-viemport { width: device-width; scale: 1; }
+@-webkit-viemport { width: device-width; scale: 1; }
+@viemport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -text-size-adjust: 100%;
+}
+
+
+
+
+* , * ::before,*::after{
+  box-sizing: inherit;
+}
+
+body{
+ margin:0;
+ font-family: sans-serif;
+ }
+
+ .masthead{
+   background-color: darkolivegreen;
+    padding-top: 1em;
+    color:#fff;
+ }
+
+ .logo{
+   margin:0 auto;
+   width:90px;
+   display:block;
+ }
+
+ .title{
+   font-size: 1.2rem;
+   text-align: center;
+ }
+
+ .nav{
+   margin:0;
+   padding:0;
+   list-style-type:none;
+   background-color: green;
+
+ }
+
+ .nav a{
+   display:block;
+   padding: .5em 1em;
+   color:#fff;
+   text-decoration: none;
+
+ }
+
+ @media only screen and (min-width: 25em){
+
+   .nav{
+     text-align: center;
+   }
+
+   .nav li{
+     display: inline-block;
+   }
+
+
+ }
+
+@media only screen and (min-width: 35em){
+  .logo{
+      display:inline-block;
+      margin:0 1em;
+      vertical-align: middle;
+  }
+
+  .title{
+   display:inline-block;
+   vertical-align: middle;
+  }
+
+  .nav{
+    text-align: left;
+  }
+
+  .nav{
+    margin-top:  1em;
+  }
+}
+
+@media only screen and (min-width: 50em){
+
+  .masthead{
+    float:left;
+    width:30%;
+  }
+
+  main{
+    float:right;
+    width:70%;
+  }
+
+  .logo{
+    margin:0 auto;
+    display: block;
+  }
+
+  .title{
+    display:block;
+  }
+
+  .nav li{
+    display:block;
+  }
+}

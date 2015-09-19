@@ -1,8 +1,21 @@
+@-moz-viemport { width: device-width; scale: 1; }
+@-ms-viemport { width: device-width; scale: 1; }
+@-o-viemport { width: device-width; scale: 1; }
+@-webkit-viemport { width: device-width; scale: 1; }
+@viemport { width: device-width; scale: 1; }
+
   html{
   	box-sizing: border-box;
-  	font-family: 'Raleway', sans-serif;
-  }
-  *, *::before, *::after{
+    	font-family: 'Raleway', sans-serif;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+      -text-size-adjust: 100%;
+    }
+
+@media only screen and (min-width: 15em) {
+
+ *, *::before, *::after{
   	box-sizing: inherit;
   }
   body{
@@ -10,15 +23,17 @@
   }
   header{
   	position: relative;
-  	text-align: center;
-    font-size: 0.7em;
+    text-align: center;
+    font-size: 0.em;
+    display:inline-block;
+    vertical-align: middle;
 
   }
   header img{
-  	width: 25%;
+  	width: 50%;
     float:left;
     font-size: 0.5em;
-    top:13em;
+    bottom:13px;
 
   }
   header h1{
@@ -219,3 +234,5 @@
     bottom: .22rem;
     position: relative;
   }
+
+}
