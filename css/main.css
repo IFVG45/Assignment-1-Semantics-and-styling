@@ -24,20 +24,19 @@
   header{
   	position: relative;
     text-align: center;
-    font-size: 0.em;
-    display:inline-block;
-    vertical-align: middle;
+    font-size: 1em;
+    display:inline;
 
   }
   header img{
-  	width: 50%;
+  	width: 23%;
     float:left;
     font-size: 0.5em;
-    bottom:13px;
+    bottom:5px;
 
   }
   header h1{
-  	display: inline-block;
+  	display: inline;
   }
   header nav li{
   	display: inline-block;
