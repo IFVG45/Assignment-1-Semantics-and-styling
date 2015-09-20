@@ -104,9 +104,9 @@
   	width: 100%;
   	background-color: #4b2c8b;
   	text-align: center;
-  	padding: .5em;
-  	margin-bottom: 2em;
-  	border-radius: 0.25em;
+  	padding: .3em;
+  	margin-bottom: 1.5em;
+  	border-radius: 1em;
   }
   .learn a{
   	text-decoration: none;
@@ -118,8 +118,8 @@
     background-color: #4b2c8b;
     text-align: center;
     padding: .5em;
-    margin-bottom: 2em;
-    border-radius: 0.25em;
+    margin-bottom: 1em;
+    border-radius: 0.85em;
   }
   .learn2 a{
     text-decoration: none;
@@ -129,10 +129,10 @@
   	display: inline;
   	background-color: #7944e4;
   	border-radius: 0.25em;
-    padding:.9rem;
+    padding:.7rem;
   	color: white;
     position: relative;
-    top:1em;
+    top:-2em;
     float:right;
   }
   .price{
