@@ -24,25 +24,25 @@
   header{
   	position: relative;
     text-align: center;
-    font-size: 1em;
+    font-size: 0.6em;
     display:inline;
 
   }
   header img{
-  	width: 23%;
+  	width: 25%;
     float:left;
     font-size: 0.5em;
-    bottom:5px;
+    top:9px;
 
   }
   header h1{
   	display: inline;
   }
   header nav li{
-  	display: inline-block;
+  	display: inline;
   	width: 25%;
   	float: left;
-  	padding: .5em;
+  	padding: .4em;
   }
   header nav ol{
   	margin: 0;
@@ -51,25 +51,22 @@
   }
   header nav{
   	background-color: #212c59;
-    margin-top: 2em;
-    font-size: 1em;
   }
   header a{
   	text-decoration: none;
   	color: white;
   }
   .top img{
-  	width: 111.6%;
-  	margin: 0 -6%;
+  	width: 123%;
   }
   .top p{
   	position: relative;
-  	top: -8rem;
+  	top: -7.5rem;
   	color: white;
   	text-align: center;
   	margin-bottom: -6em;
   	width: 100%;
-    font-size: 1.4em;
+    font-size: 1em;
   }
 
     p{
