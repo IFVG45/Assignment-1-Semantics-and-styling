@@ -78,7 +78,7 @@
     }
 
   .desc li{
-  	display: inline-block;
+  	display: inline;
   	width: 32%;
   }
   .desc{
@@ -96,7 +96,7 @@
   }
   h2{
   	text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #7944e4;
     bottom: 4em;
   }
