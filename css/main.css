@@ -249,6 +249,19 @@
   margin: 0 -6%;
 }
 
+.button2{
+  	display: inline;
+  	background-color: #7944e4;
+  	border-radius: 0.5em;
+  	padding: .4em;
+    left:.85em;
+    bottom: -3.5rem;
+  	color: white;
+  	position: absolute;
+  	text-shadow: none;
+    font size: 1em;
+  }
+
 .button{
 	display: inline;
 	color: white;
@@ -290,8 +303,117 @@ h2{
     margin: 0 -6%;
     width: 112%;
 }
+
+footer{
+  padding:0 5%;
 }
-@media only screen and (min-width: 50em){
+main li{
+  display: inline;
+}
+
+footer nav a{
+	display: inline-block;
+	width: 20%;
+	float: left;
+	padding: .5em;
+	text-align: center;
+  background-color: black;
+}
+footer nav ol{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+footer nav a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+footer {
+padding: 0;}
+.fr{
+	padding: 0 5%;
+}
+footer nav ul{
+	padding: 0 1em;
+	margin: 0;
+}
+
+}
+@media only screen and (min-width: 20em){
+  header nav a{
+    header nav a{
+      display: inline;
+      width: 25%;
+      float:left;
+      padding: .5em;
+      text-align: center;
+    }
+
+  .top p{
+    top:-8rem;
+  }
+
+  .top{
+  padding: 2em 3.5em;
+  margin: 0 -6%;
+  }
+
+  .button2{
+    display: inline;
+    background-color: #7944e4;
+    border-radius: 0.5em;
+    padding: .4em;
+    left:.85em;
+    bottom: -3.5rem;
+    color: white;
+    position: absolute;
+    text-shadow: none;
+    font size: 1em;
+  }
+
+  .button{
+  display: inline;
+  color: white;
+  position: absolute;
+  top: 1.35em;
+  right: 1em;
+  left: 79%;
+  width: auto;
+  padding: 0.25em .75em;
+  left: auto;
+  }
+  header img{
+  width: 45px;
+  top: 1.5em;
+  left: .75em;
+  }
+  header h1{
+  margin: 0em 2.2em;
+  height: 1em;
+  }
+  main{
+  padding:0 5% 5% 5%;
+  }
+  h2{
+  font-size: 1.5em;
+  }
+  .desc div{
+  width: 32%;
+  text-align: center;
+  }
+  .days ol{
+  width: 55%;
+  }
+  .price div{
+  margin: 0 2.5%;
+  width: 44%;
+  }
+  .top2 {
+    margin: 0 -6%;
+    width: 112%;
+  }
+
 .divider1{
 width: 47%;
 margin: 0;
@@ -313,21 +435,11 @@ h2 {
 	clear: both;
 }
 footer nav a{
-	display: inline;
+	display: inline-block;
 	width: 20%;
 	float: left;
 	padding: .5em;
 	text-align: center;
-}
-footer nav a {
-	display: block;
-	padding: .5em;
-	text-align: left;
-}
-footer nav ol{
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
 }
 footer nav{
 	background-color: black;
@@ -470,3 +582,122 @@ footer nav ul{
  }
 
  }
+
+ @media only screen and (min-width: 20em){
+
+   header nav a{
+  	display: inline;
+  	width: 25%;
+  	float: left;
+  	padding: .5em;
+  	text-align: center;
+  }
+  .top p{
+  	top: -8rem;
+  }
+  .top {
+  	padding: 2em 3.5em;
+  	margin: 0 -6%;
+  }
+  .button{
+  	display: inline;
+  	color: white;
+  	position: absolute;
+  	top: 1.35em;
+  	right: 1em;
+  	left: 79%;
+  	width: auto;
+  	padding: 0.25em .75em;
+  	left: auto;
+  }
+  header img{
+  	width: 45px;
+  	top: 1.5em;
+  	left: .75em;
+  }
+  header h1{
+  	margin: 0em 2.2em;
+  	height: 1em;
+  }
+  main{
+  	padding:0 5% 5% 5%;
+  }
+  h2{
+  	font-size: 1.5em;
+  }
+  .desc div{
+  	width: 32%;
+  	text-align: center;
+  }
+  .days ol{
+  	width: 55%;
+  }
+  .price div{
+  	margin: 0 2.5%;
+  	width: 44%;
+  }
+  .top2 {
+      margin: 0 -6%;
+      width: 112%;
+  }
+  }
+  @media only screen and (min-width: 55em){
+  .divider1{
+  width: 47%;
+  margin: 0;
+  float: left;
+  clear: left;
+  }
+  .divider2{
+  width: 47%;
+  margin: 0;
+  float: right;
+  }
+  .divider3{
+  width: 47%;
+  margin: 0;
+  float: left;
+  margin-left: 26.5%;
+  }
+  h2 {
+  	clear: both;
+  }
+  footer nav a{
+  	display: inline;
+  	width: 20%;
+  	float: left;
+  	padding: .5em;
+  	text-align: center;
+  }
+  footer nav a {
+  	display: block;
+  	padding: .5em;
+  	text-align: left;
+  }
+  footer nav ol{
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  }
+  footer nav{
+  	background-color: black;
+  	display: inline-block;
+  	width: 100%;
+  	margin-top: 0;
+  }
+  footer nav a{
+  	text-decoration: none;
+  	color: white;
+  	text-align: center;
+  }
+  footer {
+  padding: 0;}
+  .fr{
+  	padding: 0 5%;
+  }
+  footer nav ul{
+  	padding: 0 1em;
+  	margin: 0;
+  }
+
+  }
