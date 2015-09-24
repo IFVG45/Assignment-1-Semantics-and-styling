@@ -50,7 +50,7 @@ header nav ol{
 	overflow: hidden;
 }
 header nav{
-	background-color: #212c59;
+	background-color: #993ebd;
 	margin-top: 1em;
 }
 header a{
@@ -379,12 +379,28 @@ footer nav a{
 footer {
 padding: 0;}
 .fr{
-	padding: 0 5%;
+	padding: 0 4%;
 }
 footer nav ul{
-	padding: 0 1em;
+	padding: 0 2em;
 	margin: 0;
 }
+
+.desc div{
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+}
+.desc{
+	padding: 0;
+}
+.desc dt{
+	font-weight: bold;
+}
+.desc dl, .desc dd{
+	margin: 0;
+}
+
 }
 @media only screen and (min-width: 60em){
 html{
