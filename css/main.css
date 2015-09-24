@@ -13,6 +13,7 @@ html{
 	font-size : 1em;
 	font-family: raleway, sans-serif;
 	line-height: 1;
+	background-color: #8b79a4;
 }
 *, *::before, *::after{
 	box-sizing: inherit;
@@ -94,7 +95,7 @@ main img{
 h2{
 	text-align: center;
 	font-size: 1.3em;
-  color: #7944e4;
+  color: #410098;
 }
 .learn{
 	width: 100%;
@@ -220,17 +221,17 @@ header nav a{
 	display: inline;
 	color: white;
 	position: absolute;
-	top: 1.45em;
-	right: 1em;
+	top: .8em;
+	right: .35em;
 	left: 79%;
 	width: auto;
 	padding: 0.25em .75em;
 	left: auto;
 }
 header img{
-	width: 45px;
-	top: 1.5em;
-	left: .75em;
+	width: 85px;
+	top: .4em;
+	left: .25em;
 }
 header h1{
 	margin: 0em 2.2em;
@@ -282,7 +283,7 @@ html{
   header {
   width:30%;
   float: left;
-  position: fixed;
+  position: relative;
   }
 
   header nav a{
