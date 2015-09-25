@@ -266,6 +266,8 @@ h3{
 
 }
 }
+
+
 @media only screen and (min-width: 35em){
 html{
 	font-size: 110%;
@@ -300,10 +302,10 @@ html{
   margin: 0;
   }
   .button{
-  display: inline;
+  display: block;
   color: white;
   position: relative;
-  top: 10%;
+  top: 20%;
   right: 1em;
   width: auto;
   padding: 0.55em .95em;
