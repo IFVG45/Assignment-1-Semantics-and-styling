@@ -480,7 +480,7 @@ display: block;
 color: white;
 position: relative;
 top: .8em;
-right: .35em;
+right: auto;
 width: auto;
 padding: 0.55em .95em;
 }
